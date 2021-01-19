@@ -89,7 +89,6 @@ public class AccountListStepDefs {
 
         Assert.assertEquals(differenceString,transactionAmountString);
 
-
     }
 
     @Given("Go To CreateAccountPage for new Account")

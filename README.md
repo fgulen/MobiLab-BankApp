@@ -5,7 +5,6 @@ Selenium & Java based `Frontend` and `Backend` automation suite utilising the BD
 
 - 1. Install JAVA SDK 12
 - 2. Install Maven
-- 3. Download chromedriver https://sites.google.com/a/chromium.org/chromedriver/downloads
 - 4. Install Plugins (Cucumber,Gherkin)
    
     # Mac
