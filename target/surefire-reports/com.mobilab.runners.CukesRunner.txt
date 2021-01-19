@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.mobilab.runners.CukesRunner
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 194.119 s - in com.mobilab.runners.CukesRunner

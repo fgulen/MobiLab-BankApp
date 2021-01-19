@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7ec72201-13dc-4755-8a7b-162aa8d23f58" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="mobilab-automation" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1l6QlYtxkhAtLCEUHwIktIzYzu3" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\asd\Desktop\java13\mobilab-automation\src\test\resources\features\UI" />
+      <recent name="C:\Users\asd\Desktop\java13\mobilab-automation\src\test\java\com\mobilab\pages" />
+      <recent name="C:\Users\asd\Desktop\java13\mobilab-automation" />
+      <recent name="C:\Users\asd\Desktop\java13\mobilab-automation\src\test\java\com\mobilab\runners" />
+      <recent name="C:\Users\asd\Desktop\java13\mobilab-automation\src\test\java\com\mobilab\utilities" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mobilab.utilities" />
+      <recent name="com.mobilab.step_definitions" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\asd\Desktop\java13\mobilab-automation\src\test\resources\features" />
+      <recent name="C:\Users\asd\Desktop\java13\mobilab-automation\src\test\resources\features\UI" />
+      <recent name="C:\Users\asd\Desktop\java13\mobilab-automation\src\test\resources\features\API" />
+      <recent name="C:\Users\asd\Desktop\java13\mobilab-automation\target\failed-html-report" />
+      <recent name="C:\Users\asd\Desktop\java13\mobilab-automation\src\test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber java.Feature: AccountList">
+    <configuration name="Feature: AccountList" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/AccountList.feature" />
+      <option name="GLUE" value="com.mobilab.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="mobilab-automation" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: AccountList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Compare Owner Balance before and after Transaction only $ to $ /€ to €" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/AccountList.feature" />
+      <option name="GLUE" value="com.mobilab.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="mobilab-automation" />
+      <option name="NAME_FILTER" value="^Compare Owner Balance before and after Transaction only \$ to \$ \/\€ to \€$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Compare Owner Balance before and after Transaction only \$ to \$ \/\€ to \€$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Compare Owner Balance before and after Transaction only $ to $ /€ to €" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Invalid data in Amount" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/CreateTransaction.feature" />
+      <option name="GLUE" value="com.mobilab.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="mobilab-automation" />
+      <option name="NAME_FILTER" value="^Invalid data in Amount$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Invalid data in Amount$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Invalid data in Amount" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Valid Data for Owner" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/CreateAccount.feature" />
+      <option name="GLUE" value="com.mobilab.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="mobilab-automation" />
+      <option name="NAME_FILTER" value="^Valid Data for Owner$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Valid Data for Owner$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Valid Data for Owner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Valid Data for Transaction" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/CreateTransaction.feature" />
+      <option name="GLUE" value="com.mobilab.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="mobilab-automation" />
+      <option name="NAME_FILTER" value="^Valid Data for Transaction$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Valid Data for Transaction$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Valid Data for Transaction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="mobilab-automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mobilab.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mobilab.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.mobilab.runners.CukesRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber java.Feature: AccountList" />
+        <item itemvalue="Cucumber java.Scenario: Valid Data for Owner" />
+        <item itemvalue="Cucumber java.Scenario: Valid Data for Transaction" />
+        <item itemvalue="Cucumber java.Scenario: Compare Owner Balance before and after Transaction only $ to $ /€ to €" />
+        <item itemvalue="Cucumber java.Scenario: Invalid data in Amount" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ec72201-13dc-4755-8a7b-162aa8d23f58" name="Default Changelist" comment="" />
+      <created>1606915212597</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606915212597</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="563" y="250" key="#FailedTestRunner" timestamp="1606928207085">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="563" y="250" key="#FailedTestRunner/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606928207085" />
+    <state x="686" y="201" key="#Feature:_CreateAccount_(1)" timestamp="1606988771757">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="686" y="201" key="#Feature:_CreateAccount_(1)/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606988771757" />
+    <state x="552" y="182" key="#Inspections" timestamp="1607285705479">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="182" key="#Inspections/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607285705479" />
+    <state x="414" y="227" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606987293641">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="227" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606987293641" />
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1607246782095">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607246782095" />
+    <state x="692" y="330" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607006314723">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="692" y="330" key="#com.intellij.fileTypes.FileTypeChooser/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607006314723" />
+    <state x="689" y="359" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1606987292891">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="689" y="359" key="#com.intellij.ide.util.TreeClassChooserDialog/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606987292891" />
+    <state x="546" y="450" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1606915337117">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="546" y="450" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606915337117" />
+    <state x="740" y="253" key="FileChooserDialogImpl" timestamp="1607356577637">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="253" key="FileChooserDialogImpl/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607356577637" />
+    <state width="1877" height="373" key="GridCell.Tab.0.bottom" timestamp="1607379289677">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="103" key="GridCell.Tab.0.bottom/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1607331579883" />
+    <state width="1877" height="373" key="GridCell.Tab.0.bottom/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607379289677" />
+    <state width="1877" height="373" key="GridCell.Tab.0.center" timestamp="1607379289676">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="103" key="GridCell.Tab.0.center/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1607331579882" />
+    <state width="1877" height="373" key="GridCell.Tab.0.center/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607379289676" />
+    <state width="1877" height="373" key="GridCell.Tab.0.left" timestamp="1607379289676">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="103" key="GridCell.Tab.0.left/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1607331579882" />
+    <state width="1877" height="373" key="GridCell.Tab.0.left/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607379289676" />
+    <state width="1877" height="373" key="GridCell.Tab.0.right" timestamp="1607379289676">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="103" key="GridCell.Tab.0.right/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1607331579882" />
+    <state width="1877" height="373" key="GridCell.Tab.0.right/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607379289676" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1607122381097">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607122381097" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1607122381096">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607122381096" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1607122381096">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607122381096" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1607122381096">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607122381096" />
+    <state x="-1366" y="313" key="SettingsEditor" timestamp="1607342997173">
+      <screen x="-1366" y="313" width="1366" height="728" />
+    </state>
+    <state x="-1366" y="313" key="SettingsEditor/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1607342997173" />
+    <state x="-975" y="505" key="com.intellij.ide.util.TipDialog" timestamp="1607417570842">
+      <screen x="-1366" y="313" width="1366" height="728" />
+    </state>
+    <state x="-975" y="505" key="com.intellij.ide.util.TipDialog/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1607417570842" />
+    <state x="667" y="276" width="586" height="488" key="find.popup" timestamp="1606930798554">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="276" width="586" height="488" key="find.popup/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606930798554" />
+    <state x="654" y="378" width="665" height="284" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1607127877761">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="654" y="378" width="665" height="284" key="org.intellij.images.editor.actions.BackgroundImageDialog/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607127877761" />
+    <state x="712" y="451" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1607121318702">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="712" y="451" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607121318702" />
+    <state x="623" y="278" width="672" height="678" key="search.everywhere.popup" timestamp="1607127871143">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="278" width="672" height="678" key="search.everywhere.popup/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607127871143" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mobilab_automation$CukesRunner.ic" NAME="CukesRunner Coverage Results" MODIFIED="1607035041375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mobilab.runners.*</FILTER>
+    </SUITE>
+  </component>
+</project>

@@ -1,0 +1,3283 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5980392900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open Application with given URL and click Transaction Button",
+            "match": {
+              "location": "com.mobilab.step_definitions.AccountListStepDefs.openApplicationWithGivenURLAndClickTransactionButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 47002600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the Windows Title \"QA TASK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"QA TASK\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.mobilab.step_definitions.AccountListStepDefs.verifyTheWindowsTitle(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-10T12:48:29.037Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3999500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "User should see the new account After new account creation",
+        "description": "",
+        "id": "accountslist-page;user-should-see-the-new-account-after-new-account-creation;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 599191400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 76998000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Go To CreateAccountPage for new Account",
+            "match": {
+              "location": "com.mobilab.step_definitions.AccountListStepDefs.goToCreateAccountPageForNewAccount()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 573994000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter \"Cedric Bella\", \"350000\" And Select \"DOLLAR\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cedric Bella\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"350000\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"DOLLAR\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.mobilab.step_definitions.AccountListStepDefs.enterAndSelect(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4634133600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Go To AccountListPage To Verify New Account with \"Cedric Bella\", \"350000\", \"DOLLAR\" Data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cedric Bella\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"350000\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"DOLLAR\"",
+                  "offset": 75
+                }
+              ],
+              "location": "com.mobilab.step_definitions.AccountListStepDefs.goToAccountListPageToVerifyNewAccountWithData(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4224561000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open Application with given URL and click Transaction Button",
+            "match": {
+              "location": "com.mobilab.step_definitions.AccountListStepDefs.openApplicationWithGivenURLAndClickTransactionButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29995100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the Windows Title \"QA TASK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"QA TASK\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.mobilab.step_definitions.AccountListStepDefs.verifyTheWindowsTitle(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-10T12:48:41.139Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1004700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Compare Owner Balance before and after Transaction only $ to $ /€ to €",
+        "description": "",
+        "id": "accountslist-page;compare-owner-balance-before-and-after-transaction-only-$-to-$-/€-to-€;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 584542800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1559755900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "\"Jerald Greenawalt\" sends \"10\" to \"Nobert Nowak\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jerald Greenawalt\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Nobert Nowak\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.mobilab.step_definitions.AccountListStepDefs.sendsTo(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Verify first balance and current balance difference gives the \"10\"transaction amount",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10\"",
+                  "offset": 62
+                }
+              ],
+              "location": "com.mobilab.step_definitions.AccountListStepDefs.verifyFirstBalanceAndCurrentBalanceDifferenceGivesTheTransactionAmount(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4188304600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open Application with given URL and click Transaction Button",
+            "match": {
+              "location": "com.mobilab.step_definitions.AccountListStepDefs.openApplicationWithGivenURLAndClickTransactionButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33708400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the Windows Title \"QA TASK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"QA TASK\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.mobilab.step_definitions.AccountListStepDefs.verifyTheWindowsTitle(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-10T12:48:47.585Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Compare Owner Balance before and after Transaction only $ to $ /€ to €",
+        "description": "",
+        "id": "accountslist-page;compare-owner-balance-before-and-after-transaction-only-$-to-$-/€-to-€;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 570538300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1491832600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "\"Fatih Gulen\" sends \"17\" to \"Cedric Bella\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fatih Gulen\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"17\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"Cedric Bella\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.mobilab.step_definitions.AccountListStepDefs.sendsTo(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1002700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Verify first balance and current balance difference gives the \"17\"transaction amount",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"17\"",
+                  "offset": 62
+                }
+              ],
+              "location": "com.mobilab.step_definitions.AccountListStepDefs.verifyFirstBalanceAndCurrentBalanceDifferenceGivesTheTransactionAmount(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "AccountsList Page",
+    "description": "",
+    "id": "accountslist-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AccountList.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4090614200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the application with given URL",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.open_the_application_with_given_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6000100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the windows title \"QA TASK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"QA TASK\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.Verify_the_windows_title(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-10T12:48:53.894Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Valid Data for Owner(AccountHolder)",
+        "description": "",
+        "id": "create-account-page;valid-data-for-owner(accountholder);;2",
+        "after": [
+          {
+            "result": {
+              "duration": 592560100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 417287800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter \"Nobert Nowak\", \"50000\" and select \"EURO\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nobert Nowak\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"50000\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"EURO\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.enter_and_select(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2091987800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click submit button",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.clickSubmitButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 47166400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify to get expected \"Account has been successfully created.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Account has been successfully created.\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.verifyToGetExpected(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4260383200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the application with given URL",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.open_the_application_with_given_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6995000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the windows title \"QA TASK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"QA TASK\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.Verify_the_windows_title(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-10T12:49:01.180Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Valid Data for Owner(AccountHolder)",
+        "description": "",
+        "id": "create-account-page;valid-data-for-owner(accountholder);;3",
+        "after": [
+          {
+            "result": {
+              "duration": 608662400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 443126700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter \"Fatih Gulen\", \"80000\" and select \"DOLLAR\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fatih Gulen\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"80000\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"DOLLAR\"",
+                  "offset": 40
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.enter_and_select(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2077146900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click submit button",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.clickSubmitButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46011500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify to get expected \"Account has been successfully created.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Account has been successfully created.\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.verifyToGetExpected(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4104223900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the application with given URL",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.open_the_application_with_given_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7115000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the windows title \"QA TASK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"QA TASK\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.Verify_the_windows_title(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-10T12:49:08.636Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1002300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Valid Data for Owner(AccountHolder)",
+        "description": "",
+        "id": "create-account-page;valid-data-for-owner(accountholder);;4",
+        "after": [
+          {
+            "result": {
+              "duration": 607623000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 452411400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter \"Jerald Greenawalt\", \"4568\" and select \"EURO\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jerald Greenawalt\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"4568\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"EURO\"",
+                  "offset": 45
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.enter_and_select(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2092621300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click submit button",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.clickSubmitButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46183300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify to get expected \"Account has been successfully created.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Account has been successfully created.\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.verifyToGetExpected(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4164522400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the application with given URL",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.open_the_application_with_given_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8999800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the windows title \"QA TASK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"QA TASK\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.Verify_the_windows_title(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-10T12:49:15.972Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1004700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Valid Data for Owner(AccountHolder)",
+        "description": "",
+        "id": "create-account-page;valid-data-for-owner(accountholder);;5",
+        "after": [
+          {
+            "result": {
+              "duration": 579947300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 464314100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter \"Arnoldo Meade\", \"8595\" and select \"DOLLAR\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Arnoldo Meade\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"8595\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"DOLLAR\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.enter_and_select(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2096716400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click submit button",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.clickSubmitButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 45311400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify to get expected \"Account has been successfully created.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Account has been successfully created.\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.verifyToGetExpected(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4115803600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the application with given URL",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.open_the_application_with_given_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6810100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the windows title \"QA TASK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"QA TASK\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.Verify_the_windows_title(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-10T12:49:23.349Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Invalid data for Owner (AccountHolder)",
+        "description": "",
+        "id": "create-account-page;invalid-data-for-owner-(accountholder);;2",
+        "after": [
+          {
+            "result": {
+              "duration": 580641500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 394522900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Enter \"?!!. ^:/@%\", \"\" and select \"DOLLAR\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"?!!. ^:/@%\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"DOLLAR\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.enter_and_select(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2114724500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Click submit button",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.clickSubmitButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 47485700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Verify to get expected \"Please fill in balance.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please fill in balance.\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.verifyToGetExpected(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4080910000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the application with given URL",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.open_the_application_with_given_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7475400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the windows title \"QA TASK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"QA TASK\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.Verify_the_windows_title(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-10T12:49:30.624Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Invalid data for Owner (AccountHolder)",
+        "description": "",
+        "id": "create-account-page;invalid-data-for-owner-(accountholder);;3",
+        "after": [
+          {
+            "result": {
+              "duration": 586243700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 307286200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Enter \"\", \"\" and select \"DOLLAR\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"DOLLAR\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.enter_and_select(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2114649100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Click submit button",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.clickSubmitButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 52613400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Verify to get expected \"Please fill in name.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please fill in name.\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.verifyToGetExpected(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4396593200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the application with given URL",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.open_the_application_with_given_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6998700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the windows title \"QA TASK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"QA TASK\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.Verify_the_windows_title(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-10T12:49:37.809Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 59,
+        "name": "Create an Account Without Currency (Dollar/Euro)",
+        "description": "",
+        "id": "create-account-page;create-an-account-without-currency-(dollar/euro);;2",
+        "after": [
+          {
+            "result": {
+              "duration": 586096900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 227188200,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Enter \"Nakati Enne\", \"59\" and select no currency",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nakati Enne\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"59\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.enter_and_select_no_currency(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2112975100,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Click submit button",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.clickSubmitButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 48429700,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "Verify to get expected \"Please fill in currency.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please fill in currency.\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.verifyToGetExpected(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4121277900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the application with given URL",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.open_the_application_with_given_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7003600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the windows title \"QA TASK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"QA TASK\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.Verify_the_windows_title(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-10T12:49:45.198Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 82,
+        "name": "Verify any character is allowed in Balance",
+        "description": "",
+        "id": "create-account-page;verify-any-character-is-allowed-in-balance;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 579345000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 385793300,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "Enter \"Carlos Mark\", \"E250\" and select \"DOLLAR\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Carlos Mark\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"E250\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"DOLLAR\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.enter_and_select(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2126796000,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "Click submit button",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.clickSubmitButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 50132300,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "Verify to get expected \"Please fill in balance.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please fill in balance.\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.verifyToGetExpected(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4095219400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the application with given URL",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.open_the_application_with_given_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6071600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the windows title \"QA TASK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"QA TASK\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.Verify_the_windows_title(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-10T12:49:52.481Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 83,
+        "name": "Verify any character is allowed in Balance",
+        "description": "",
+        "id": "create-account-page;verify-any-character-is-allowed-in-balance;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 579150000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 384509900,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "Enter \"Carlos Mark\", \"100E\" and select \"DOLLAR\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Carlos Mark\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"100E\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"DOLLAR\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.enter_and_select(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2107458200,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "Click submit button",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.clickSubmitButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 51248500,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "Verify to get expected \"Please fill in balance.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please fill in balance.\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.verifyToGetExpected(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4056961200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the application with given URL",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.open_the_application_with_given_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5993700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the windows title \"QA TASK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"QA TASK\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.Verify_the_windows_title(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-10T12:49:59.717Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 84,
+        "name": "Verify any character is allowed in Balance",
+        "description": "",
+        "id": "create-account-page;verify-any-character-is-allowed-in-balance;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 566253600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 432003700,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "Enter \"Carlos Mark\", \"--100\" and select \"DOLLAR\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Carlos Mark\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"--100\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"DOLLAR\"",
+                  "offset": 40
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.enter_and_select(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2125866300,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "Click submit button",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.clickSubmitButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 45025700,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "Verify to get expected \"Please fill in balance.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please fill in balance.\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.verifyToGetExpected(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4053138900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the application with given URL",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.open_the_application_with_given_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7001200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the windows title \"QA TASK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"QA TASK\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.Verify_the_windows_title(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-10T12:50:06.956Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 85,
+        "name": "Verify any character is allowed in Balance",
+        "description": "",
+        "id": "create-account-page;verify-any-character-is-allowed-in-balance;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 570419900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 526999800,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "Enter \"Carlos Mark\", \"-100\" and select \"DOLLAR\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Carlos Mark\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"-100\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"DOLLAR\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.enter_and_select(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2130388800,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "Click submit button",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.clickSubmitButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46995400,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "Verify to get expected \"Account has been successfully created.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Account has been successfully created.\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.verifyToGetExpected(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4229318900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the application with given URL",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.open_the_application_with_given_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5992500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the windows title \"QA TASK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"QA TASK\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.Verify_the_windows_title(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-10T12:50:14.298Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 95,
+        "name": "Verify any \"O\" (Zero) is allowed in Balance in the beginning",
+        "description": "",
+        "id": "create-account-page;verify-any-\"o\"-(zero)-is-allowed-in-balance-in-the-beginning;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 584348400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 484003800,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "Enter \"Carlos Mark\", \"000002\" and select \"DOLLAR\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Carlos Mark\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"000002\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"DOLLAR\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.enter_and_select(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2093034200,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "Click submit button",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.clickSubmitButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 47004700,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "Verify to get expected \"Account has been successfully created.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Account has been successfully created.\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.verifyToGetExpected(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4176232400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the application with given URL",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.open_the_application_with_given_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5995000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the windows title \"QA TASK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"QA TASK\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.Verify_the_windows_title(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-10T12:50:21.753Z",
+        "before": [
+          {
+            "result": {
+              "duration": 999900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 96,
+        "name": "Verify any \"O\" (Zero) is allowed in Balance in the beginning",
+        "description": "",
+        "id": "create-account-page;verify-any-\"o\"-(zero)-is-allowed-in-balance-in-the-beginning;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 603641900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 459001400,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "Enter \"Carlos Mark\", \"001\" and select \"DOLLAR\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Carlos Mark\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"001\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"DOLLAR\"",
+                  "offset": 38
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.enter_and_select(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2083110100,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "Click submit button",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.clickSubmitButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 49003300,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "Verify to get expected \"Account has been successfully created.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Account has been successfully created.\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.verifyToGetExpected(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4182140200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the application with given URL",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.open_the_application_with_given_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5997700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the windows title \"QA TASK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"QA TASK\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.Verify_the_windows_title(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-10T12:50:29.159Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 106,
+        "name": "Verify any \".\" (dot) is allowed in Balance",
+        "description": "",
+        "id": "create-account-page;verify-any-\".\"-(dot)-is-allowed-in-balance;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 601622700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 493000000,
+              "status": "passed"
+            },
+            "line": 100,
+            "name": "Enter \"Marlys Brassard\", \"0.006\" and select \"DOLLAR\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Marlys Brassard\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"0.006\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"DOLLAR\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.enter_and_select(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2078264800,
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "Click submit button",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.clickSubmitButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 47212400,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "Verify to get expected \"Account has been successfully created.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Account has been successfully created.\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.verifyToGetExpected(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4183963600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the application with given URL",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.open_the_application_with_given_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5996400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the windows title \"QA TASK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"QA TASK\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.Verify_the_windows_title(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-10T12:50:36.579Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 107,
+        "name": "Verify any \".\" (dot) is allowed in Balance",
+        "description": "",
+        "id": "create-account-page;verify-any-\".\"-(dot)-is-allowed-in-balance;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 585665600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 498004300,
+              "status": "passed"
+            },
+            "line": 100,
+            "name": "Enter \"Flora Stumpf\", \"000.5\" and select \"DOLLAR\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Flora Stumpf\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"000.5\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"DOLLAR\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.enter_and_select(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2100679900,
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "Click submit button",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.clickSubmitButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 52998400,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "Verify to get expected \"Account has been successfully created.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Account has been successfully created.\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateAccountStepDefs.verifyToGetExpected(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Create Account Page",
+    "description": "",
+    "id": "create-account-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/CreateAccount.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4266197500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the Application with given URL and click Transaction Button",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateTransactionStepDef.openTheApplicationWithGivenURLAndClickTransactionButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 606999800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the windows Title \"QA TASK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"QA TASK\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateTransactionStepDef.verifyTheWindowsTitle(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-10T12:50:44.015Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Valid Data for Transaction",
+        "description": "",
+        "id": "create-transaction-page;valid-data-for-transaction;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 581412100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1753000100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter \"1\",  select \"Nobert Nowak\" and select \"Fatih Gulen\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"Nobert Nowak\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Fatih Gulen\"",
+                  "offset": 45
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateTransactionStepDef.enterSelectAndSelect(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3095815300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click Submit Button",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateTransactionStepDef.clickSubmitButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 52002500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify to get Expected \"Transaction has been successfully created.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Transaction has been successfully created.\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateTransactionStepDef.verifyToGetExpected(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4225568500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the Application with given URL and click Transaction Button",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateTransactionStepDef.openTheApplicationWithGivenURLAndClickTransactionButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 521997900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the windows Title \"QA TASK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"QA TASK\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateTransactionStepDef.verifyTheWindowsTitle(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-10T12:50:54.385Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Valid Data for Transaction",
+        "description": "",
+        "id": "create-transaction-page;valid-data-for-transaction;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 587799700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1558001500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter \"45\",  select \"Fatih Gulen\" and select \"Jerald Greenawalt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"45\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"Fatih Gulen\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"Jerald Greenawalt\"",
+                  "offset": 45
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateTransactionStepDef.enterSelectAndSelect(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3092476800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click Submit Button",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateTransactionStepDef.clickSubmitButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46949500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify to get Expected \"Transaction has been successfully created.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Transaction has been successfully created.\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateTransactionStepDef.verifyToGetExpected(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4213854200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the Application with given URL and click Transaction Button",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateTransactionStepDef.openTheApplicationWithGivenURLAndClickTransactionButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 496996600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the windows Title \"QA TASK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"QA TASK\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateTransactionStepDef.verifyTheWindowsTitle(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-10T12:51:04.427Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Valid Data for Transaction",
+        "description": "",
+        "id": "create-transaction-page;valid-data-for-transaction;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 588624100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1589002000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter \"45\",  select \"Jerald Greenawalt\" and select \"Arnoldo Meade\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"45\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"Jerald Greenawalt\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"Arnoldo Meade\"",
+                  "offset": 51
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateTransactionStepDef.enterSelectAndSelect(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3079661100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click Submit Button",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateTransactionStepDef.clickSubmitButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46996100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify to get Expected \"Transaction has been successfully created.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Transaction has been successfully created.\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateTransactionStepDef.verifyToGetExpected(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4250656600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the Application with given URL and click Transaction Button",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateTransactionStepDef.openTheApplicationWithGivenURLAndClickTransactionButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 567994700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the windows Title \"QA TASK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"QA TASK\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateTransactionStepDef.verifyTheWindowsTitle(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-10T12:51:14.453Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Valid Data for Transaction",
+        "description": "",
+        "id": "create-transaction-page;valid-data-for-transaction;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 586456500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1678002300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter \"8000000000\",  select \"Arnoldo Meade\" and select \"Fatih Gulen\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"8000000000\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"Arnoldo Meade\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Fatih Gulen\"",
+                  "offset": 55
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateTransactionStepDef.enterSelectAndSelect(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3137610700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click Submit Button",
+            "match": {
+              "location": "com.mobilab.step_definitions.CreateTransactionStepDef.clickSubmitButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46005100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify to get Expected \"Source balance should be greater than amount.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Source balance should be greater than amount.\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.mobilab.step_definitions.CreateTransactionStepDef.verifyToGetExpected(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Create Transaction Page",
+    "description": "",
+    "id": "create-transaction-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/CreateTransaction.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4294800000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Application with given URL and click TransactionList Button",
+            "match": {
+              "location": "com.mobilab.step_definitions.TransactionListStepDef.openApplicationWithGivenURLAndClickTransactionListButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 70998200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Verify The Windows Title \"QA TASK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"QA TASK\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.mobilab.step_definitions.TransactionListStepDef.verifyTheWindowsTitle(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-10T12:51:24.730Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Verify Transaction after Transaction in TransactionList Page",
+        "description": "",
+        "id": "transactionlist-page;verify-transaction-after-transaction-in-transactionlist-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 592476900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 292999200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Go To CreateTransaction Page For New Transaction",
+            "match": {
+              "location": "com.mobilab.step_definitions.TransactionListStepDef.goToCreateTransactionPageForNewTransaction()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2186001400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter \"15\", Select \"Jerald Greenawalt\", Select \"Nobert Nowak\", Submit To Send Money",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"15\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"Jerald Greenawalt\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Nobert Nowak\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.mobilab.step_definitions.TransactionListStepDef.enterSelectSelectSubmitToSendMoney(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 891068000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify transaction exist in TransactionList page with \"Jerald Greenawalt\", \"Nobert Nowak\",\"15\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jerald Greenawalt\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"Nobert Nowak\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"15\"",
+                  "offset": 90
+                }
+              ],
+              "location": "com.mobilab.step_definitions.TransactionListStepDef.verifyTransactionExistInTransactionListPageWith(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4338125700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Application with given URL and click TransactionList Button",
+            "match": {
+              "location": "com.mobilab.step_definitions.TransactionListStepDef.openApplicationWithGivenURLAndClickTransactionListButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 93998600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Verify The Windows Title \"QA TASK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"QA TASK\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.mobilab.step_definitions.TransactionListStepDef.verifyTheWindowsTitle(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-10T12:51:33.071Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Verify Transaction after Transaction in TransactionList Page",
+        "description": "",
+        "id": "transactionlist-page;verify-transaction-after-transaction-in-transactionlist-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 581638100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mobilab.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 266002100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Go To CreateTransaction Page For New Transaction",
+            "match": {
+              "location": "com.mobilab.step_definitions.TransactionListStepDef.goToCreateTransactionPageForNewTransaction()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2188997400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter \"10\", Select \"Marlys Brassard\", Select \"Flora Stumpf\", Submit To Send Money",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"Marlys Brassard\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Flora Stumpf\"",
+                  "offset": 45
+                }
+              ],
+              "location": "com.mobilab.step_definitions.TransactionListStepDef.enterSelectSelectSubmitToSendMoney(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 878402000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify transaction exist in TransactionList page with \"Marlys Brassard\", \"Flora Stumpf\",\"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Marlys Brassard\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"Flora Stumpf\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 88
+                }
+              ],
+              "location": "com.mobilab.step_definitions.TransactionListStepDef.verifyTransactionExistInTransactionListPageWith(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "TransactionList Page",
+    "description": "",
+    "id": "transactionlist-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/TransactionList.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
