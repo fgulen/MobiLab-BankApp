@@ -1,6 +1,6 @@
-Cucumber BDD Test Automation Framework
+#Cucumber BDD Test Automation Framework
 
-Selenium & Java based `Frontend` and `Backend` automation suite utilising the BDD methodologies of Cucumber and Gherkin
+##Selenium & Java based `Frontend` and `Backend` automation suite utilising the BDD methodologies of Cucumber and Gherkin
 
 
 - 1. Install JAVA SDK 12
